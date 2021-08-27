@@ -1,0 +1,31 @@
+#edit_form .privilege-group{
+	clear: both;
+	padding-top: 20px;
+}
+.privilege-group h4{
+	font-weight: bold;
+}
+.privilege-group ul{
+	margin: 0;
+	padding: 0;
+}
+.privilege-group ul li{
+	float: left; 
+	width: 20%;
+	list-style: none;
+}
+#edit_form .privilege-group ul li input{
+	float: none;
+}
+.privilege-group ul li label{
+	float:none;
+	width: auto;
+	font-size: 15px;
+}
+#edit_form .Save{
+	background: url(../img/save.png) no-repeat ;
+	width: 50px;
+	height: 50px;
+	border: none;
+	float: right;
+}
